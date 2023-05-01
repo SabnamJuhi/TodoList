@@ -1,0 +1,48 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 30%;
+    height: auto;
+    margin: auto;
+   margin-top: 70px;
+   
+}
+.show-item{
+    display: flex;
+    flex-direction: column;
+   
+}
+.each-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 167, 170);
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30px;
+    width: 200px;
+}
+.each-item  p{
+    text-align: center;
+}
+.add-items{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+
+.add-btn{
+    font-size: 20px;
+    
+}
+.child-div>:nth-child(1){
+    text-align: center;
+}
+.child-div{
+    padding: 20px;
+}
